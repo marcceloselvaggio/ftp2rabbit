@@ -7,7 +7,7 @@ services:
       - "5672:5672"
   ftp:
     container_name: ftp.go
-    image: signadesenvolvimento/ftp2rabbit:0.0.3
+    image: signadesenvolvimento/ftp2rabbit:0.0.7
     ports:
       - "10021:10021"
       - "10000-10020:10000-10020"
